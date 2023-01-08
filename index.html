@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portolio</title>
+</head>
+<body>
+    <!-- navbar -->
+<nav class="navbar">
+  <ul class="link-group">
+      <li class="link active"><a href="#">home</a></li>
+      <li class="link active"><a href="#">about</a></li>
+      <li class="link active"><a href="#">card</a></li>
+      <li class="link active"><a href="#">skills</a></li>
+      <li class="link active"><a href="#">contact</a></li>
+  </ul>
+</nav>
+  <!-- home section -->
+
+<section class="home-section active">
+  <h1 class="hero-heading">hello, i am <br> Aielita</h1>
+  <img src="./gelic.jpg" class="home-img" alt="">
+</section>
+
+<!-- about section -->
+<section class="about-section active">
+  <div class="about">
+      <div class="about-img-container">
+          <img src="./SG.jpg" class="about-img" alt="">
+      </div>
+      <p class="about-info">My name is Ayelita. I live in the city of Karakol. She was born on April 16, 2006 in the city of Balykchy. He studied in the Ton region in the village of Toguz-Bulak, the school of T. Myrzamambetov. After graduating from 9 classes, she entered the college. K. Tynystanova.
+        specialty: Accountant-economist. Still me a frontend developer. I can provide clean code and pixel perfect design. I also make the website more and more interactive with web animations. Responsive design makes your site accessible to all users, regardless of their devices.</p>
+  </div>
+</section>
+ 
+<!-- partal:index.partal.html -->
+<section class="card-section active">
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4538/4538996.png" alt="">
+                    <h3>Design</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cunque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1197/1197460.png" alt="">
+                    <h3>Code</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cunque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://cdn-icons-png.flaticon.com/512/993/993781.png" alt="">
+                    <h3>Launch</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cunque minus iste veritatis provident at.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skills -->
+<div class="skill-section active">
+    <h1 class="heading">skills</h1>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="./html.png" class="skill-img" alt="">
+            <div class="skill-level">20%</div>
+            <h1 class="skill-name">HTML</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        <div class="skill-card">
+            <img src="./css-3.png" class="skill-img" alt="">
+            <div class="skill-level">20%</div>
+            <h1 class="skill-name">CSS</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        <div class="skill-card">
+            <img src="./java-script.png" class="skill-img" alt="">
+            <div class="skill-level">10%</div>
+            <h1 class="skill-name">JS</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+    </div>
+</div>
+
+ <!-- contact section -->
+<section class="contact-section active">
+    <div class="contact-container">
+        <div class="footer__body">
+            <div class="footer__contacts">
+                <h2>Contacts</h2>
+                <ul class="footer__list">
+                    <li><a href="" class="footer__links">+996 508 317 639</a></li>
+                    <li><a href="https://www.instagram.com/_k._a_.a/" class="footer__links">INSTAGRAM</a></li>
+                    <li><a href="https://web.telegram.org/?legacy=1#/im" class="footer__links"> TELEGRAM</a></li>
+                </ul>
+            </div>
+            <div class="footer__text">
+                <p>Thanks for visit!</p>
+            </div>
+        </div>
+    </div>
+  <form class="contact-form">
+      <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+      <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+      <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+      <button type="submit" class="form-submit-btn">contact</button>
+  </form>
+</section >
+<script src="script.js"></script>
+</body>
+</html>
